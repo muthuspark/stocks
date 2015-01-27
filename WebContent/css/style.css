@@ -1,0 +1,80 @@
+@CHARSET "UTF-8";
+body{
+font-family: 'PT Sans Narrow', sans-serif;
+}
+.progress-bar-success{
+height: 3px;
+}
+.progress{
+height: 3px;
+margin-bottom: 0px;
+background: #fff;
+border-radius: 0px; 
+}
+.star{
+font-size: 18px;
+text-transform: uppercase;
+float:right;
+color:orange;
+}
+.badge{
+color:white;
+background:orange;
+}
+.row{
+margin:50px 0 0 0;
+}
+
+.yfi_rt_quote_summary {
+padding: 5px 0 9px 5px;
+margin-top: 0;
+margin-bottom:10px;
+border-top: 2px solid #000;
+border-bottom: 2px solid #000;
+font-size: 13px;
+}
+.yfi_rt_quote_summary .hd {
+margin-top: 8px;
+padding: 0;
+font-weight: normal;
+font-size: 15px;
+background: none;
+color: #000;
+border: none;
+}
+.yfi_rt_quote_summary .hd h2 {
+display: inline;
+margin-right: 2px;
+font-weight: bold;
+font-size: 25px;
+}
+.yfi_rt_quote_summary .rtq_exch {
+color: #999;
+font: normal 12px ;
+}
+.yfi_rt_quote_summary .rtq_exch .rtq_dash {
+margin-right: 5px;
+}
+.wl_sign {
+position: relative;
+}
+.yfi_rt_quote_summary_rt_top {
+padding: 0;
+margin: 0;
+}
+.yfi_rt_quote_summary_rt_top .time_rtq_ticker {
+padding-right: 6px;
+font-weight: bold;
+font-size: 30px;
+}
+.yfi_rt_quote_summary_rt_top .down_r, .yfi_rt_quote_summary_rt_top .down_r span {
+color: #c00;
+font-weight: bold;
+}
+.yfi_rt_quote_summary_rt_top .time_rtq_content {
+font-weight: bold;
+font-size: 20px;
+}
+.yfi_rt_quote_summary_rt_top .time_rtq_content span {
+padding-right: 1px;
+}

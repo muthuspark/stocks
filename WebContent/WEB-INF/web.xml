@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" id="WebApp_ID" version="3.0">
+  <display-name>stocks</display-name>
+  <welcome-file-list>
+    <welcome-file>index.jsp</welcome-file>
+  </welcome-file-list>
+  <context-param>
+    <description>Location to store uploaded file</description>
+    <param-name>file-upload</param-name>
+    <param-value>
+         D:\temp\
+     </param-value>
+  </context-param>
+  <servlet>
+    <servlet-name>bullbear</servlet-name>
+    <jsp-file>/bullbear.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>bullbear</servlet-name>
+    <url-pattern>/bullbear</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>compare</servlet-name>
+    <jsp-file>/compare.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>compare</servlet-name>
+    <url-pattern>/compare</url-pattern>
+  </servlet-mapping>
+   <servlet>
+    <servlet-name>highlow</servlet-name>
+    <jsp-file>/highlow.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>highlow</servlet-name>
+    <url-pattern>/highlow</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>pricewise</servlet-name>
+    <jsp-file>/pricewise.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>pricewise</servlet-name>
+    <url-pattern>/pricewise</url-pattern>
+  </servlet-mapping>
+  
+  
+</web-app>

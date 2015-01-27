@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+	
+	<bean id="dataSource" destroy-method="close" class="org.apache.commons.dbcp.BasicDataSource">
+        <property name="driverClassName" value="com.mysql.jdbc.Driver"/>
+        <property name="url" value="jdbc:mysql://127.0.0.1:3306/stocks"/>
+        <property name="username" value="muthukrishnan"/>
+        <property name="password" value=")I{vJ-l=yrxf"/>
+    </bean>
+		
+	<bean id="databaseDAO" class="muthu.richy.database.DatabaseDAOImpl">
+		<property name="dataSource" ref="dataSource"/>
+	</bean>
+
+  
+</beans>
